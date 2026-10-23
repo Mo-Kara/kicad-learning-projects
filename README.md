@@ -5,8 +5,9 @@ Practice boards I recreated in KiCad while learning schematic capture, footprint
 ## Projects
 
 ### Tiny solar supply (`tiny-solar-supply`)
-Solar-powered 3.3 V boost converter built around the AP3015, with SMD parts, a battery connector and a slide switch. I reviewed the layout and noted improvements for a Rev B (switching loop, feedback routing, ground plane, output switch-off).
+Solar-powered 3.3 V boost converter built around the AP3015 (output set by the 1 MΩ / 604 kΩ feedback divider), with a 2N7002 switch, SS14 Schottky diodes and SMD parts. I reviewed the layout and noted improvements for a Rev B (switching loop, feedback routing, ground plane, output switch-off).
 
+![Tiny solar supply, schematic](images/tiny-solar-supply-schematic.png)
 ![Tiny solar supply, PCB layout](images/tiny-solar-supply-layout.png)
 ![Tiny solar supply, 3D view](images/tiny-solar-supply-3d.png)
 
