@@ -17,8 +17,9 @@ LM317 adjustable supply with 3.3 V / 5 V header outputs, power LED, slide switch
 ![Breadboard power supply, 3D view](images/breadboard-power-supply-3d.png)
 
 ### Bridge rectifier (`bridge-rectifier`)
-Four 1N4007 diodes, a 1000 µF smoothing capacitor and an LED indicator on a through-hole board with screw terminals.
+Four 1N4007 diodes, a 1000 µF smoothing capacitor and a 10 kΩ bleeder resistor and an LED indicator (2.2 kΩ) on a through-hole board with screw terminals.
 
+![Bridge rectifier, schematic](images/bridge-rectifier-schematic.png)
 ![Bridge rectifier, 3D view](images/bridge-rectifier-3d.png)
 
 ### LED torch (`led-torch`)
