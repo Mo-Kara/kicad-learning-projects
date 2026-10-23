@@ -1,15 +1,33 @@
-﻿# KiCad Learning Projects
+# KiCad Learning Projects
 
 Practice boards I recreated in KiCad while learning schematic capture, footprints, PCB layout and fabrication output. **These are learning projects: the designs were reproduced from public tutorials and open designs, not original work.** The goal was to practise the workflow and to understand each circuit, not to claim the designs.
 
-| Folder | What it is |
-|---|---|
-| `tiny-solar-supply` | 3.3 V solar-powered boost converter (AP3015) |
-| `breadboard-power-supply` | LM317 adjustable 3.3 V / 5 V breadboard supply, with Gerbers |
-| `led-torch` | Coin-cell LED light, with Gerbers |
-| `arduino-nano-led-controller` | LED controller board built around an Arduino Nano footprint |
-| `arduino-nano-board` | Arduino Nano breakout/footprint practice |
-| `mcu-datalogger` | MCU data-logger schematic and PCB (work in progress) |
+## Projects
+
+### Tiny solar supply (`tiny-solar-supply`)
+Solar-powered 3.3 V boost converter built around the AP3015, with SMD parts, a battery connector and a slide switch. I reviewed the layout and noted improvements for a Rev B (switching loop, feedback routing, ground plane, output switch-off).
+
+![Tiny solar supply, PCB layout](images/tiny-solar-supply-layout.png)
+![Tiny solar supply, 3D view](images/tiny-solar-supply-3d.png)
+
+### Breadboard power supply (`breadboard-power-supply`)
+LM317 adjustable supply with 3.3 V / 5 V header outputs, power LED, slide switch and screw terminals. Includes Gerber files.
+
+![Breadboard power supply, 3D view](images/breadboard-power-supply-3d.png)
+
+### Bridge rectifier (`bridge-rectifier`)
+Four 1N4007 diodes, a 1000 µF smoothing capacitor and an LED indicator on a through-hole board with screw terminals.
+
+![Bridge rectifier, 3D view](images/bridge-rectifier-3d.png)
+
+### LED torch (`led-torch`)
+CR2032 coin-cell LED light with push button and series resistor. Includes Gerber files.
+
+![LED torch, 3D view](images/led-torch-3d.png)
+
+### Work in progress
+- `arduino-nano-board`: custom Arduino Nano footprint practice (no complete board yet).
+- `mcu-datalogger`: early project files for an MCU data logger (not finished).
 
 ## Notes
 - Made with KiCad 9. Open the `.kicad_pro` file in each folder.
